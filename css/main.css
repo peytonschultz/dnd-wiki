@@ -1,0 +1,16 @@
+.horizontal-container {
+  display: flex;            /* Activates flexbox layout */
+  flex-direction: row;      /* Places sections side-by-side (default) */
+  justify-content: space-between; /* Spaces sections evenly across the row */
+  align-items: stretch;     /* Makes all sections equal height */
+}
+
+.section-item {
+  flex: 3;                  /* Distributes width evenly among sections */
+  padding: 20px;
+}
+
+.nav-item {
+  flex: 1;                  /* Distributes width evenly among sections */
+  padding: 20px;
+}
